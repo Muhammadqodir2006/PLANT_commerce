@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">pant_e_commerce</string>
+    <string name="plantscape">PLANTSCAPE</string>
+    <string name="exclusive">Exclusive</string>
+    <string name="offer">Offer</string>
+    <string name="get_your_1st_plant">Get your 1st plant</string>
+    <string name="_60_off">\@ 60% off</string>
+    <string name="search">Search</string>
+    <string name="indoor">Indoor</string>
+    <string name="flower">Flower</string>
+    <string name="green">Green</string>
+    <string name="monstera_adansonii">Monstera Adansonii</string>
+    <string name="monstera">Monstera family</string>
+    <string name="_400">$ 400</string>
+    <string name="janda">Janda bolong</string>
+    <string name="agung">Agung family</string>
+    <string name="_800">$ 800</string>
 </resources>
