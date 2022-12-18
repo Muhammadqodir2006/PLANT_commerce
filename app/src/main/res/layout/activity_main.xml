@@ -207,42 +207,46 @@
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
+        app:cardElevation="20dp"
         android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:backgroundTint="#D5D0D0"
-        app:cardCornerRadius="25dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="#D4D5D4"
+        app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        tools:layout_editor_absoluteX="0dp">
 
         <LinearLayout
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
             <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/home"
+                app:tint="#002140" />
+
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                app:tint="#002140" />
-            <ImageButton
                 android:layout_weight="1"
                 android:src="@drawable/favourite"
+                app:tint="#435B71" />
+
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                app:tint="#435B71" />
-            <ImageButton
                 android:layout_weight="1"
                 android:src="@drawable/shop"
-                app:tint="#435B71"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
+                app:tint="#435B71" />
+
             <ImageButton
-                android:layout_weight="1"
-                android:src="@drawable/profile"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/profile"
                 app:tint="#435B71" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
