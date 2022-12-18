@@ -207,11 +207,10 @@
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
-        app:cardElevation="20dp"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         app:cardBackgroundColor="#D4D5D4"
-        app:cardCornerRadius="20dp"
+        app:cardCornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="0dp">
 
